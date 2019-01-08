@@ -1,0 +1,6 @@
+.tit{
+	background: url(../img/gl-tit.png) no-repeat center top;
+}
+.tab li:nth-child(7){
+	left: 0;
+}

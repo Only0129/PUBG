@@ -1,0 +1,11 @@
+.tab_li a{
+	width: 90px !important;
+	border-bottom: 3px solid transparent;
+}
+.on a{
+	color: #e8a026 !important;
+	border-bottom: 3px solid #e8a026;
+}
+.tit{
+	background: url(../img/doujin-tit.png);
+}

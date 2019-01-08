@@ -1,0 +1,182 @@
+body{
+	font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1';
+	background: #e9e9e9;
+}
+.top{
+	position: absolute;
+	z-index: 10;
+}
+.listpage-head{
+	width: 100%;
+	height: 348px;
+	background: url(../img/info-kv.jpg) no-repeat center top;
+	overflow: hidden;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+.listpage-head-main{
+	margin: 170px 0 0px 80px;
+}
+.tit{
+	width: 167px;
+	height: 62px;
+	background: url(../img/news-tit.png) no-repeat;
+}
+.local{
+	padding-top: 17px;
+	color: #b8b8b8;
+	font-size: 16px;
+	line-height: 20px
+}
+.local a{
+	color: #b8b8b8;
+	text-decoration: underline;
+}
+
+.news-list{
+	padding: 0;
+	margin: 0 auto;
+	width: 1120px;
+}
+.tab{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #b6b6b6;
+}
+.tab li{
+	float: left;
+	margin-right: 80px;
+	width: 66px;
+	height: 100%;
+}
+.tab li a{
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+}
+.curt{
+	color: #ffb007;
+}
+.tab_li_btm{
+	left: 146px;
+	bottom: -2px;
+	position: absolute;
+	width: 66px;
+	height: 3px !important;
+	background: #ffb007;
+}
+.news-detail{
+	font-size: 14px;
+	color: #555;
+}
+.news-detail li{
+	clear: both;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.news-detail li a{
+	color: #555;
+	vertical-align: middle;
+	width: 830px;
+	overflow: hidden;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.news-detail li a:hover{
+	color: #e8a026;
+}
+.news-detail li span{
+	float: right;
+}
+.news-detail ul{
+	display: none;
+}
+
+.page-num{
+	text-align: center;
+	padding: 30px 0;
+}
+.page-num a{
+	display: inline-block;
+	margin: 0 60px;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	color: #555;
+	border: 1px solid #9a9a9a;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+
+.foot-dark-out {
+	width: 100%;
+	background: #000;
+}
+.foot-dark {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #ccc;
+	background: #000;
+	padding: 15px 0;
+}
+
+.foot-cpright {
+	padding: 15px 0;
+}
+
+.foot-logos {
+	float: left;
+	display: inline;
+	margin-top: 20px;
+}
+
+.foot-logos-game {
+	float: left;
+	width: 170px;
+	height: 35px;
+	text-indent: -999em;
+	overflow: hidden;
+	margin: 10px 0 0 10px;
+	background: url(../img/foot-dark.png);
+}
+
+.foot-logos-company {
+	float: left;
+	overflow: hidden;
+	margin: 10px 0 0 28px;
+}
+
+.foot-links {
+	display: inline;
+	float: right;
+	width: 720px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.foot-links a {
+	color: #fff;
+}
+
+.foot-box {
+	width: 100%;
+	position: relative;
+}
